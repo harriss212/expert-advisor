@@ -32,13 +32,10 @@ export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 poetry install
 ```
 
-
 6. make file
 /expert-advisor/apikey.py
 inside
 key="XXXXXXXXXXX"
-
-
 
 6. execution
 `poetry run python -m expert-advisor.example`
@@ -46,20 +43,3 @@ key="XXXXXXXXXXX"
 7. testing
 `tox -e unit`
 `tox -e format`
-
-
-PACKAGE LIST
-poetry
-pandas-ta
-TA-Lib
-scipy
-pandas
-torch
-gradient-free-optimisers
-scikit-learn
-black
-pytest
-jupyter-notebook
-tox
-poetry-tox
-pytest-cov
